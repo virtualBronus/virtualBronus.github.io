@@ -44,15 +44,19 @@ Levels.mirror.load = function () {};
 Levels.mirror.update = function (value, index)
 {
   if (index == 0) {
+    this.channels[0].output(value);
     this.channels[3].output(value+1);
   }
   else if (index == 1) {
+    this.channels[1].output(value);
     this.channels[2].output(value+1);
   }
   else if (index == 2) {
+    this.channels[2].output(value);
     this.channels[1].output(value-1);
   }
   else if (index == 3) {
+    this.channels[3].output(value);
     this.channels[0].output(value-1);
   }
   else if (index > 3)
