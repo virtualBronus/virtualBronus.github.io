@@ -1,0 +1,92 @@
+h1
+{
+    font-family: 'Courier New', Courier, monospace;
+    color: #DDD564;
+    font-size: 40px;
+    margin-bottom: 10px;
+    margin-left: 35px;
+}
+
+h1.win
+{
+  color: #A5A1FF;
+}
+
+h1.win:hover
+{
+  color: #7F78FF;
+}
+
+p.channel_text
+{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    color: #7C8A00;
+    margin: 0px;
+    margin-left: 40px;
+    user-select: none;
+    text-align: left;
+}
+
+span.channel_last_input
+{
+  float: right;
+  color: #9ECC6C;
+  margin-right: 80px;
+}
+
+span.channel_last_output
+{
+  float: left;
+  color: #6D993F;
+  font-size: 15px;
+  padding-top: 10px;
+}
+
+div.channel
+{
+    /*border-top-style: solid;*/
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-color: #DDD564;
+    /*border-radius: 5px;*/
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding: 6px;
+}
+
+div.top
+{
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+div.bottom
+{
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+div.channel:hover
+{
+    background-color: #FFFCD7;
+}
+
+div.selected
+{
+  background-color: #FFFBBC;
+}
+
+div.selected:hover
+{
+  background-color: #FFF9A1;
+}
+
+.selected_text
+{
+
+}
